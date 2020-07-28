@@ -1,0 +1,49 @@
+.form{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-title{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.form-Linck{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form-post{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 30%;
+    /* background-color: wheat; */
+}
+
+.form-post_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-post_input input{
+    padding: 2px;
+    border:solid #b35057 1px ;
+    width: 100%;    
+}
+
+.buttonSubmit{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: wheat;
+    margin-bottom: 15px;
+}
+.buttonSubmit button{
+    width: 80%;
+}

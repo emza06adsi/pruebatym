@@ -1,0 +1,23 @@
+.title{
+    width: 10%;
+    height: 40px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10%;
+       
+}
+.title h2 {
+    font-size: 40px;
+}
+
+.imageError{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.imageError img{
+    width: 35%;
+    /* border: solid red 3px ; */
+}

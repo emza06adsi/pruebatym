@@ -1,0 +1,98 @@
+.cardView{
+    background-color: white;
+    display: block;
+    border-radius: 7px;
+    border: solid 1px #B35057;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 15);
+    margin: 20px;
+    padding: 25px;
+    
+}
+
+.cardView-nombre{
+    font-size: 18px;
+    color: black;
+}
+
+.cardView-telefono{
+    font-size: 18px;
+    display: flex;
+    justify-content:space-between ;
+    
+}
+.cardView-telefono_p{
+    font-size: 18px;
+    color: black;
+}
+.cardView-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.cardView-btn_{
+    display: flex;
+    justify-content: flex-end;
+    border-left:solid  #B35057 3px;
+}
+
+.cardView-btn button{
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    color:black;
+    font-size: 20px;
+}
+
+.btnRemove{
+    border:solid  #B35057 3px;
+}
+
+.cardView_{
+    background-color: white;
+    display: flex;
+    border-radius: 7px;
+    border: solid 1px #B35057;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 15);
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cardView_ img{
+    width: 90px;
+}
+
+.cardViews{
+    word-break: break-all;
+    display: grid;
+    grid-gap: 15px;
+    padding: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(25%,1fr) );
+}
+
+
+
+
+
+
+@media only screen and (max-width:1200px){
+
+    .cardViews{
+        display: grid;
+        grid-gap: 15px;
+        padding: 15px;
+        grid-template-columns: repeat(auto-fill, minmax(400px,1fr) );
+    }   
+}
+
+
+@media only screen and (max-width:700px){
+
+    .cardViews{
+        display: grid;
+        grid-gap: 15px;
+        padding: 15px;
+        grid-template-columns: repeat(auto-fill, minmax(200px,1fr) );
+    }   
+}
+
